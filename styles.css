@@ -1,0 +1,52 @@
+body {
+    background-color: antiquewhite;
+}
+/* აქ გავაკეთე ლინკების გალამაზება კლასებით*/
+.gia a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .gia a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .gia a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  .gia a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+/*ბლოკები რობმებიხ ლინკებით არის გაკეთებული მაგლა  რაგაცა რო ეგ გავაკეტე*/
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active  {
+    background-color: #04AA6D;            
+  }
